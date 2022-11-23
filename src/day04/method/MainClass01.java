@@ -15,6 +15,8 @@ package day04.method;
  * 
  */
 
+
+
 public class MainClass01 {
 	public static String name;  // 전역변수 name 선언
 	
@@ -34,10 +36,11 @@ public class MainClass01 {
 		
 		System.out.println("전역변수 name : " + strName);
 		
-		String eMon = getEvolution("꼬부기");
+		String eMon = getEvolution("꼬부기"); 
 		
 		System.out.println(eMon);
 	}
+	
 	
 	// 인자x 리턴x -> 실행하고 끝나는 메소드
 	public static void hello() {
